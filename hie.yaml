@@ -1,24 +1,16 @@
 cradle:
-  multi:
-    - path: "./foo"
-      config:
-        cradle:
-          none:
-    - path: "./"
-      config:
-        cradle:
-          stack:
-            - path: "src"
-              component: "hls-test:lib"
+  stack:
+    - path: "src"
+      component: "hls-test:lib"
 
-            - path: "app/main.hs"
-              component: "hls-test:exe:hls-test"
+    - path: "app/main.hs"
+      component: "hls-test:exe:hls-test"
 
-            - path: "app/DevelMain.hs"
-              component: "hls-test:exe:hls-test"
+    - path: "app/DevelMain.hs"
+      component: "hls-test:exe:hls-test"
 
-            - path: "app/Paths_hls_test.hs"
-              component: "hls-test:exe:hls-test"
+    - path: "app/Paths_hls_test.hs"
+      component: "hls-test:exe:hls-test"
 
-            - path: "test"
-              component: "hls-test:test:hls-test-test"
+    - path: "test"
+      component: "hls-test:test:hls-test-test"
