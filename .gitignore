@@ -1,0 +1,5 @@
+stack
+.devenv
+.direnv
+.stack-work
+dist-newstyle

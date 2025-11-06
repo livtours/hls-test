@@ -1,0 +1,20 @@
+name: foo
+version: "0.0.0"
+language: GHC2021
+
+dependencies:
+  - base
+
+library:
+  source-dirs: src
+
+flags:
+  library-only:
+      manual: false
+      default: false
+  dev:
+      manual: false
+      default: false
+  ide-info:
+      manual: false
+      default: true  
